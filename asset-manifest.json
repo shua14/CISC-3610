@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CISC-3610/static/css/main.4a6004bc.css",
+    "main.js": "/CISC-3610/static/js/main.848538f9.js",
+    "index.html": "/CISC-3610/index.html",
+    "main.4a6004bc.css.map": "/CISC-3610/static/css/main.4a6004bc.css.map",
+    "main.848538f9.js.map": "/CISC-3610/static/js/main.848538f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a6004bc.css",
+    "static/js/main.848538f9.js"
+  ]
+}
