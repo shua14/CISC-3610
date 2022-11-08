@@ -1,0 +1,26 @@
+header {
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.tiles {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 250px;
+}
+  
+.projects {
+    border-style: solid;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 175px;
+    width: 200px;
+}
+
+.labs {
+    border-style: solid;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 175px;
+    width: 200px;
+}
