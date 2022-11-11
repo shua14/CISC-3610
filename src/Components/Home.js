@@ -18,7 +18,7 @@ export default function Home() {
             </header>
             <div className="tiles">
                 <div className="projects"><Link to='/projects'>Projects</Link></div>
-                <div className="labs">Labs</div>
+                <div className="labs"><Link to='/labs'>Labs</Link></div>
             </div> 
         </div>
     )

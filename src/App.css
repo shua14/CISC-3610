@@ -7,3 +7,10 @@ header {
   margin-top: 100px;
   font-size: 60px;
 }
+
+.card {
+  border-style: solid;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+}

@@ -6,7 +6,7 @@ export default function Projects(){
         <>
         <header>Projects</header>
         <div className="tiles">
-            <div className="cartoon"><Link to='/cartoon'>Cartoon</Link></div>
+            <div className="card"><Link to='/cartoon'>Cartoon</Link></div>
         </div>
         </>
     );
