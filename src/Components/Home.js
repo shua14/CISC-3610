@@ -4,8 +4,6 @@ import '../styles/Home.css'
 
 export default function Home() {
 
-    // let navigate = useNavigate();
-
     useEffect(() => {
         document.title = "CISC. 3610"
     }, [])
