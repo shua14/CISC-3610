@@ -1,10 +1,11 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Components/Home";
-import Projects from "./Components/Projects"
-import Cartoon from "./Components/Cartoon"
-import Labs from './Components/Labs';
-import ColorChart from './Components/ColorChart';
+import Projects from "./Components/Projects/Projects"
+import Cartoon from "./Components/Projects/Cartoon"
+import Animation from "./Components/Projects/Animation"
+import Labs from './Components/Labs/Labs';
+import ColorChart from './Components/Labs/ColorChart';
 
 export default function App() {
   return (
@@ -14,9 +15,10 @@ export default function App() {
              <Routes className='routes'>
                <Route exact path='/' element={<Home />} />
                <Route exact path='/projects' element={<Projects />} />
-               <Route exact path='/cartoon' element={<Cartoon />} />
+               <Route exact path='/projects/cartoon' element={<Cartoon />} />
                <Route exact path='/labs' element={<Labs />} />
-               <Route exact path='/colorchart' element={<ColorChart />} />
+               <Route exact path='/labs/colorchart' element={<ColorChart />} />
+               <Route exact path='/projects/animation' element={<Animation />} />
              </Routes>
          </Router>
        </nav>

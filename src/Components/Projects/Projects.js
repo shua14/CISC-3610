@@ -1,4 +1,3 @@
-import '../styles/Projects.css'
 import { Link, useNavigate } from 'react-router-dom'
 
 export default function Projects(){
@@ -6,7 +5,8 @@ export default function Projects(){
         <>
         <header>Projects</header>
         <div className="tiles">
-            <div className="card"><Link to='/cartoon'>Cartoon</Link></div>
+            <div className="card"><Link to='/projects/cartoon'>Cartoon</Link></div>
+            <div className="card"><Link to='/projects/animation'>Animation</Link></div>
         </div>
         </>
     );

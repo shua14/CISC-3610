@@ -9,9 +9,16 @@ header {
   margin-bottom: 25px;
 }
 
+.tiles {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width:800px;
+}
+
 .card {
   border-style: solid;
   display: inline-block;
   vertical-align: middle;
-  width: 200px;
+  width: 250px;
 }

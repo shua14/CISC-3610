@@ -6,7 +6,7 @@ export default function Labs(){
         <>
             <header>Labs</header>
             <div className="tiles">
-                <div className="card"><Link to="/colorchart">Color Chart</Link></div>
+                <div className="card"><Link to="/labs/colorchart">Color Chart</Link></div>
             </div>
         </>
     );

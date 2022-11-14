@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import '../styles/Cartoon.css'
+import '../../styles/Cartoon.css'
 
 
 export default function Cartoon(){
