@@ -5,7 +5,7 @@ import spaceship from './images/spaceship.png';
 
 export default function Animation(){
     const draw = (context, frameCount) => {
-        context.translate(465, 153 + frameCount)
+        context.translate(465, 153)
     }
     
     useEffect(() => {
@@ -21,7 +21,6 @@ export default function Animation(){
         context.strokeStyle = "#F4F6F0";
         context.fill();
         context.stroke();
-        context.save();
 
 
         let frameCount = 0;
@@ -38,17 +37,16 @@ export default function Animation(){
             base_image.src = astronaut;
             base_image.onload = function(){
                 context.drawImage(base_image, 465, 153, 70, 100);
+                context.restore();
             }
-            // frameCount++
+            frameCount++
             // draw(context, frameCount)
             // animationFrameId = window.requestAnimationFrame(load_astronaut)
         }
+        context.save();
         load_astronaut();
-        context.restore();
 
-        load_spaceship();
-
-        function load_spaceship() {
+        const load_spaceship = () => {
             let base_image = new Image();
             base_image.src = spaceship;
 
@@ -62,7 +60,8 @@ export default function Animation(){
                 context.rotate(349*Math.PI/180)
             }
         }
-
+        load_spaceship();
+        
         return () => {
             window.cancelAnimationFrame(animationFrameId)
         }
