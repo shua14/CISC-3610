@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/CISC-3610/static/css/main.f13d62ef.css",
-    "main.js": "/CISC-3610/static/js/main.43bd5eec.js",
+    "main.css": "/CISC-3610/static/css/main.6661d18c.css",
+    "main.js": "/CISC-3610/static/js/main.30dcbda9.js",
+    "static/media/astronaut.png": "/CISC-3610/static/media/astronaut.ef338da02864ed6fe7ab.png",
+    "static/media/spaceship.png": "/CISC-3610/static/media/spaceship.7568777aac8af8f78def.png",
     "index.html": "/CISC-3610/index.html",
-    "main.f13d62ef.css.map": "/CISC-3610/static/css/main.f13d62ef.css.map",
-    "main.43bd5eec.js.map": "/CISC-3610/static/js/main.43bd5eec.js.map"
+    "main.6661d18c.css.map": "/CISC-3610/static/css/main.6661d18c.css.map",
+    "main.30dcbda9.js.map": "/CISC-3610/static/js/main.30dcbda9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f13d62ef.css",
-    "static/js/main.43bd5eec.js"
+    "static/css/main.6661d18c.css",
+    "static/js/main.30dcbda9.js"
   ]
 }
