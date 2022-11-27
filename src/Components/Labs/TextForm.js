@@ -17,7 +17,6 @@ export default function TextForm(){
         context.stroke();
 
         context.font = fontsize + "px " + font;
-        // context.font = "30px Arial";
         context.fillStyle = textcolor;
         context.fillText(name, 400, 250)
 
