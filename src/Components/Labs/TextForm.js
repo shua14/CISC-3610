@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function TextForm(){
     const[name, setName] = useState("");
-    const[backgroundcolor, setBackgroundColor] = useState("");
-    const[textcolor, setTextColor] = useState("");
-    const[fontsize, setFontSize] = useState(30);
-    const[font, setFont] = useState("");
+    const[backgroundcolor, setBackgroundColor] = useState("white");
+    const[textcolor, setTextColor] = useState("black");
+    const[fontsize, setFontSize] = useState(12);
+    const[font, setFont] = useState("Courier New");
 
     useEffect(() => {
         const c = document.getElementById("myCanvas");
@@ -49,7 +49,6 @@ export default function TextForm(){
                 id="myCanvas"
                 width="1000"
                 height="500"
-                style={{ border: "1px solid grey" }}
             >
                 Your browser does not support the HTML canvas tag.
             </canvas>
