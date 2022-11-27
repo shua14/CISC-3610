@@ -4,8 +4,11 @@ import astronaut from './images/astronaut.png';
 import spaceship from './images/spaceship.png';
 
 export default function Animation(){
-    const draw = (context, frameCount) => {
-        context.translate(465, 153)
+    
+    function Astronaut(image, x, y) {
+        this.image = image
+        this.x = 465
+        this.y = 153
     }
     
     useEffect(() => {
@@ -25,21 +28,19 @@ export default function Animation(){
 
         let frameCount = 0;
         let animationFrameId
-        // const render = () => {
-        //     frameCount++
-        //     draw(context, frameCount)
-        //     animationFrameId = window.requestAnimationFrame(render)
-        // }
-        // render()
+        let man;
 
         const load_astronaut = () => {
+            
             let base_image = new Image();
             base_image.src = astronaut;
             base_image.onload = function(){
                 context.drawImage(base_image, 465, 153, 70, 100);
                 context.restore();
             }
-            frameCount++
+
+            man = new Astronaut(base_image, 465, 153)
+            // frameCount++
             // draw(context, frameCount)
             // animationFrameId = window.requestAnimationFrame(load_astronaut)
         }
@@ -61,12 +62,12 @@ export default function Animation(){
             }
         }
         load_spaceship();
-        
+
         return () => {
             window.cancelAnimationFrame(animationFrameId)
         }
 
-    }, [draw])
+    }, [])
 
     return(
         <>
