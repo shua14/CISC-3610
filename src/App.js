@@ -5,9 +5,11 @@ import Projects from "./Components/Projects/Projects"
 import Cartoon from "./Components/Projects/Cartoon"
 import Animation from "./Components/Projects/Animation"
 import TextForm from './Components/Projects/TextForm';
+import VoiceRecognition from './Components/Projects/VoiceRecognition';
 import Labs from './Components/Labs/Labs';
 import ColorChart from './Components/Labs/ColorChart';
 import SoundMachine from './Components/Labs/SoundMachine';
+
 
 export default function App() {
   return (
@@ -20,6 +22,7 @@ export default function App() {
                <Route exact path='/projects/cartoon' element={<Cartoon />} />
                <Route exact path='/projects/animation' element={<Animation />} />
                <Route exact path='/projects/textform' element={<TextForm />} />
+               <Route exact path='/projects/voicerecognition' element={<VoiceRecognition />} />
                <Route exact path='/labs' element={<Labs />} />
                <Route exact path='/labs/colorchart' element={<ColorChart />} />
                <Route exact path='/labs/soundmachine' element={<SoundMachine />} />
