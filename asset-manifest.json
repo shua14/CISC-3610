@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/CISC-3610/static/css/main.6661d18c.css",
-    "main.js": "/CISC-3610/static/js/main.30dcbda9.js",
+    "main.js": "/CISC-3610/static/js/main.4959abfd.js",
+    "static/media/quack.mp3": "/CISC-3610/static/media/quack.4733e487ba4d3b2cb884.mp3",
+    "static/media/roar.mp3": "/CISC-3610/static/media/roar.47c3c00a1c976469b719.mp3",
     "static/media/astronaut.png": "/CISC-3610/static/media/astronaut.ef338da02864ed6fe7ab.png",
+    "static/media/oink.mp3": "/CISC-3610/static/media/oink.41cab02d485eb4e0d3e3.mp3",
+    "static/media/moo.mp3": "/CISC-3610/static/media/moo.0341721bce4dd6f865f3.mp3",
     "static/media/spaceship.png": "/CISC-3610/static/media/spaceship.7568777aac8af8f78def.png",
+    "static/media/jukebox.jpeg": "/CISC-3610/static/media/jukebox.848b1a41285b7742c369.jpeg",
+    "static/media/neigh.mp3": "/CISC-3610/static/media/neigh.dd1d0a735a28f4f704b6.mp3",
     "index.html": "/CISC-3610/index.html",
     "main.6661d18c.css.map": "/CISC-3610/static/css/main.6661d18c.css.map",
-    "main.30dcbda9.js.map": "/CISC-3610/static/js/main.30dcbda9.js.map"
+    "main.4959abfd.js.map": "/CISC-3610/static/js/main.4959abfd.js.map"
   },
   "entrypoints": [
     "static/css/main.6661d18c.css",
-    "static/js/main.30dcbda9.js"
+    "static/js/main.4959abfd.js"
   ]
 }
