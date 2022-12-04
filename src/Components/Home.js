@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link, useNavigate } from 'react-router-dom'
 import '../styles/Home.css'
 
 export default function Home() {
-
-    useEffect(() => {
-        document.title = "CISC. 3610"
-    }, [])
-
     return (
         <div className="Home">
             <header>

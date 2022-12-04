@@ -9,6 +9,7 @@ export default function Projects(){
             <div className="card"><Link to='/projects/animation'>Animation</Link></div>
             <div className="card"><Link to="/projects/textform">Text Form</Link></div>
             <div className="card"><Link to="/projects/voicerecognition">Voice Recognition</Link></div>
+            <div className="card"><Link to="/projects/datavisualization">Data Visualization</Link></div>
         </div>
         </>
     );

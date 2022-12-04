@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Components/Home";
 import Projects from "./Components/Projects/Projects"
@@ -6,12 +7,16 @@ import Cartoon from "./Components/Projects/Cartoon"
 import Animation from "./Components/Projects/Animation"
 import TextForm from './Components/Projects/TextForm';
 import VoiceRecognition from './Components/Projects/VoiceRecognition';
+import DataVisualization from './Components/Projects/DataVisualization';
 import Labs from './Components/Labs/Labs';
 import ColorChart from './Components/Labs/ColorChart';
 import SoundMachine from './Components/Labs/SoundMachine';
 
-
 export default function App() {
+  useEffect(() => {
+    document.title = "CISC. 3610"
+}, [])
+  
   return (
     <div className="App">
        <nav className='app--nav'>
@@ -23,6 +28,7 @@ export default function App() {
                <Route exact path='/projects/animation' element={<Animation />} />
                <Route exact path='/projects/textform' element={<TextForm />} />
                <Route exact path='/projects/voicerecognition' element={<VoiceRecognition />} />
+               <Route exact path='/projects/datavisualization' element={<DataVisualization />} />
                <Route exact path='/labs' element={<Labs />} />
                <Route exact path='/labs/colorchart' element={<ColorChart />} />
                <Route exact path='/labs/soundmachine' element={<SoundMachine />} />
