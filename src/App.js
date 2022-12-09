@@ -11,6 +11,7 @@ import DataVisualization from './Components/Projects/DataVisualization';
 import Labs from './Components/Labs/Labs';
 import ColorChart from './Components/Labs/ColorChart';
 import SoundMachine from './Components/Labs/SoundMachine';
+import Resume from './Components/Labs/Resume';
 
 export default function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ export default function App() {
                <Route exact path='/labs' element={<Labs />} />
                <Route exact path='/labs/colorchart' element={<ColorChart />} />
                <Route exact path='/labs/soundmachine' element={<SoundMachine />} />
+               <Route exact path='/labs/resume' element={<Resume />} />
              </Routes>
          </Router>
        </nav>

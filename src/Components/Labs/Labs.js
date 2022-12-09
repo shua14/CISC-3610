@@ -8,6 +8,7 @@ export default function Labs(){
             <div className="tiles">
                 <div className="card"><Link to="/labs/colorchart">Color Chart</Link></div>
                 <div className="card"><Link to="/labs/soundmachine">Sound Machine</Link></div>
+                <div className="card"><Link to="/labs/resume">Resume</Link></div>
             </div>
         </>
     );
