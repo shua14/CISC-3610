@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
 
 export default function Labs(){
@@ -10,6 +9,7 @@ export default function Labs(){
                 <div className="card"><Link to="/labs/soundmachine">Sound Machine</Link></div>
                 <div className="card"><Link to="/labs/resume">Resume</Link></div>
             </div>
+            <div id="footer"><Link to="/">Back Home</Link></div>
         </>
     );
 }

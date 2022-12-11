@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Projects(){
     return(
@@ -11,6 +11,7 @@ export default function Projects(){
             <div className="card"><Link to="/projects/voicerecognition">Voice Recognition</Link></div>
             <div className="card"><Link to="/projects/datavisualization">Data Visualization</Link></div>
         </div>
+        <div id="footer"><Link to="/">Back Home</Link></div>
         </>
     );
 }

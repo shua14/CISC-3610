@@ -13,12 +13,22 @@ header {
   display: flex;
   margin: auto;
   justify-content: space-between;
-  width:800px;
+  width:1000px;
+  flex-wrap: wrap;
 }
 
 .card {
   border-style: solid;
   display: inline-block;
   vertical-align: middle;
-  width: 250px;
+  width: 270px;
+  margin-top: 20px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
 }

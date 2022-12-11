@@ -10,8 +10,8 @@ export default function Home() {
                 CISC. 3610 Introduction to Multimedia Programming
             </header>
             <div className="tiles">
-                <div className="projects"><Link to='/projects'>Projects</Link></div>
-                <div className="labs"><Link to='/labs'>Labs</Link></div>
+                <div className="card"><Link to='/projects'>Projects</Link></div>
+                <div className="card"><Link to='/labs'>Labs</Link></div>
             </div> 
         </div>
     )
