@@ -1,21 +1,27 @@
 {
   "files": {
     "main.css": "/CISC-3610/static/css/main.7d96d932.css",
-    "main.js": "/CISC-3610/static/js/main.70bc8fa6.js",
+    "main.js": "/CISC-3610/static/js/main.1f4eac06.js",
+    "static/media/island-sound.mp3": "/CISC-3610/static/media/island-sound.a204704e888ea3638f9a.mp3",
+    "static/media/jungle-sound.mp3": "/CISC-3610/static/media/jungle-sound.402bb7d684f71926a884.mp3",
+    "static/media/iceberg-sound.mp3": "/CISC-3610/static/media/iceberg-sound.a3ac3f34502de84853df.mp3",
+    "static/media/jungle.jpg": "/CISC-3610/static/media/jungle.dd8346ae512c9072ecac.jpg",
     "static/media/quack.mp3": "/CISC-3610/static/media/quack.4733e487ba4d3b2cb884.mp3",
     "static/media/man-smiling.png": "/CISC-3610/static/media/man-smiling.7712e8015fe4d66219f4.png",
     "static/media/man-frowning.png": "/CISC-3610/static/media/man-frowning.44941d5d01656eabd36a.png",
     "static/media/roar.mp3": "/CISC-3610/static/media/roar.47c3c00a1c976469b719.mp3",
     "static/media/oink.mp3": "/CISC-3610/static/media/oink.41cab02d485eb4e0d3e3.mp3",
+    "static/media/island.jpg": "/CISC-3610/static/media/island.8c30989f435ecff29b85.jpg",
     "static/media/moo.mp3": "/CISC-3610/static/media/moo.0341721bce4dd6f865f3.mp3",
     "static/media/jukebox.jpeg": "/CISC-3610/static/media/jukebox.848b1a41285b7742c369.jpeg",
+    "static/media/iceberg.jpg": "/CISC-3610/static/media/iceberg.e3c16ae781bf7a45ff32.jpg",
     "static/media/neigh.mp3": "/CISC-3610/static/media/neigh.dd1d0a735a28f4f704b6.mp3",
     "index.html": "/CISC-3610/index.html",
     "main.7d96d932.css.map": "/CISC-3610/static/css/main.7d96d932.css.map",
-    "main.70bc8fa6.js.map": "/CISC-3610/static/js/main.70bc8fa6.js.map"
+    "main.1f4eac06.js.map": "/CISC-3610/static/js/main.1f4eac06.js.map"
   },
   "entrypoints": [
     "static/css/main.7d96d932.css",
-    "static/js/main.70bc8fa6.js"
+    "static/js/main.1f4eac06.js"
   ]
 }
