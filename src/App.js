@@ -12,6 +12,7 @@ import Labs from './Components/Labs/Labs';
 import ColorChart from './Components/Labs/ColorChart';
 import SoundMachine from './Components/Labs/SoundMachine';
 import Resume from './Components/Labs/Resume';
+import DragAndDrop from './Components/Projects/DragAndDrop';
 
 export default function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function App() {
                <Route exact path='/projects/textform' element={<TextForm />} />
                <Route exact path='/projects/voicerecognition' element={<VoiceRecognition />} />
                <Route exact path='/projects/datavisualization' element={<DataVisualization />} />
+               <Route exact path='/projects/draganddrop' element={<DragAndDrop />} />
                <Route exact path='/labs' element={<Labs />} />
                <Route exact path='/labs/colorchart' element={<ColorChart />} />
                <Route exact path='/labs/soundmachine' element={<SoundMachine />} />
